@@ -1,4 +1,4 @@
-package flat
+package main
 
 import (
 	"github.com/orloffm/cat"
