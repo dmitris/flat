@@ -10,8 +10,8 @@ func main() {
 	c := new(cat.Cat)
 	d := new(dog.Dog)
 
-	t := new(toy.Toy)
+	t := new(toy.RubberToy)
 
-	c.GentlyPush(t)
-	d.Squeeze(t)
+	c.GentlyPush(*t)
+	d.Squeeze(*t)
 }
