@@ -8,7 +8,8 @@ import (
 func main() {
 	c := new(cat.Cat)
 	d := new(dog.Dog)
+	
+	t := d.BringAToy()
 
-	c.GentlyPushAToy()
-	d.SqueezeAToy()
+	c.GentlyPushAToy(*t)
 }
