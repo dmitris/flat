@@ -1,0 +1,4 @@
+package: github.com/orloffm/flat
+import:
+- package: github.com/orloffm/cat
+- package: github.com/orloffm/toy
