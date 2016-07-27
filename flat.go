@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/orloffm/cat"
+	"github.com/orloffm/toy"
 )
 
 func main() {
